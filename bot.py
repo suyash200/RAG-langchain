@@ -64,14 +64,10 @@ def process_answer(instruction):
 
 def chat(query):
     question=query
+    print(query)
     response, metadata =  process_answer(question)
     print(response)
-    ram={'res':response}
-    z= json.dumps(ram)
-     # llmStream = StringIO(response)
-    # data = llmStream.read().decode()
-
-    return z
+    return json.dumps({'res':response})
 
 def main():
     question='what is this paper about?'
