@@ -1,2 +1,10 @@
 LaMini-T5-738M/pytorch_model.bin
 __pycache__
+Scripts
+site-packages
+pyvenv.cfg
+Lib
+etc
+Include
+share
+Lib/site-packages
